@@ -1,0 +1,186 @@
+div.crazykill header{
+	height: .55rem;
+	width: 100%;
+	background-color: #F9FAFD;
+}
+div.crazykill header .top-tittle{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-siZing: border-box;
+	padding: 0 .1rem;
+}
+div.crazykill header .top-tittle .page-name{
+	font-size: .18rem;
+	font-weight: 600;
+	width: 50%;
+	text-align: center;
+}
+div.crazykill header .top-tittle .goback{
+	font-size: .35rem;
+	font-weight: bold;
+}
+div.crazykill header .top-tittle .refresh{
+	width: .4rem;
+	height: .4rem;
+}
+div.crazykill header .top-tittle .refresh img{
+	width: 100%;
+	vertical-align: top;
+}
+
+div.crazykill .buycar{
+	width: .65rem;
+	height: .65rem;
+	border-radius: 50%;
+	position: fixed;
+	right: .1rem;
+	bottom: .2rem;
+	background: url(../../imgs/home/goods-buycar.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	box-shadow: 0 0 10px #fff;
+	border: 2px solid #fff;
+}
+div.crazykill .buycar span{
+	display: block;
+	position: absolute;
+	width: .2rem;
+	height: .2rem;
+	border-radius: 50%;
+	background: red;
+	color: #fff;
+	font-size: .18rem;
+	font-weight: bold;
+	line-height: .25rem;
+	text-align: center;
+	box-shadow: 0 0 4px #fff;
+	right: 0;
+	top: 0;
+}
+
+div.crazykill main{
+	width: 100%;
+
+}
+div.crazykill .bigImg{
+	width: 100%;
+	height: 1.6rem;
+}
+div.crazykill .bigImg img{
+	width: 100%;
+	height: 100%;
+}
+
+div.crazykill .container .time-list{
+	display: flex;
+	width: 100%;
+	font-size: .18rem;
+	text-align: center;
+	justify-content: space-between;
+}
+div.crazykill .container .time-list li{
+	background-color: #222;
+	width: 25%;
+	margin-right: 1px;
+	color: #fff;
+	line-height: .25rem;
+	padding: .05rem 0;
+}
+div.crazykill .container .time-list li .jian-bottom{
+	border: 1px solid #fff;
+	display: inline-block;
+	width: .18rem;
+	height: .18rem;
+	line-height: .18rem;
+	border-radius: 50%;
+	transform: rotateZ(90deg);
+}
+div.crazykill .container .time-list li:last-child{
+	margin-right: 0;
+}
+
+div.crazykill .count-down{
+	height: .4rem;
+	background-color: ;
+	font-size: .14rem;
+}
+div.crazykill .count-down .count-time{
+	width: 1.3rem;
+	height: .4rem;
+	background-color: #FDD000;
+	text-align: center;
+	line-height: .15rem;
+	padding-top: .05rem;
+	box-sizing: border-box;
+	float: left;
+}
+div.crazykill .count-down .you-jian{
+	border-top: .2rem solid transparent;
+	border-bottom: .2rem solid transparent;
+	border-left: .1rem solid #FDD000;
+	border-right: .1rem solid transparent;
+	float: left;
+}
+div.crazykill .count-down .rules{
+	width: 1rem;
+	height: .3rem;
+	line-height: .3rem;
+	float: right;
+	color: #FFFFFF;
+	background-color: #000;
+	margin: .05rem;
+	padding: 0 .1rem;
+	border-radius: .18rem;
+	text-align: center;
+	
+}
+div.crazykill .goods-list li{
+	width: 100%;
+	height: 1.7rem;
+	display: flex;
+	background-color: #fff;
+	font-size: .16rem;;
+}
+div.crazykill .goods-list li .img-wrap{
+	width: 1.7rem;
+	border-right: 1px solid #EFEFEF;
+}
+div.crazykill .goods-list li .img-wrap img{
+	width: 100%;
+	height: 100%;
+}
+div.crazykill .goods-list li .goods-info{
+	padding: .1rem .15rem;
+	line-height: .3rem;
+	box-sizing: border-box;
+	color: #555;
+	font-weight: 600;
+}
+div.crazykill .goods-list li .goods-info .goods-price{
+	font-size: .14rem;
+	color: red;
+	font-weight: 500;
+}
+div.crazykill .goods-list li .goods-info .goods-price .now-price{
+	color: red;
+	font-weight: 700;
+}
+div.crazykill .goods-list li .goods-info .goods-price .now-price b{
+	font-size: .3rem;
+	font-weight: 700;
+}
+div.crazykill .goods-list li .goods-info .goods-price .old-price{
+	color: #777;
+	font-size: .12rem;
+}
+div.crazykill .goods-list li .goods-info .buy-btn{
+	padding: .02rem .05rem;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+	border-radius: .2rem;
+	width: 1.2rem;
+	margin-top: .1rem;
+}

@@ -1,0 +1,162 @@
+
+
+div.buycar header{
+	height: .55rem;
+	background-color: #F9FAFD;
+}
+div.buycar header .page-tittle{
+	line-height: .55rem;
+	font-size: .18rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+div.buycar .address{
+	padding: .12rem .2rem;
+	font-size: .16rem;
+	background-color: #fff;
+	line-height: .3rem;
+	margin: 2px 0 .1rem;
+}
+div.buycar .address .placehold{
+	color: #D80D0D;
+}
+
+div.buycar .buycar-info{
+	font-size: .16rem;
+}
+div.buycar .buycar-info >*{
+	background-color: #fff;
+	padding: 0 .15rem;
+	box-sizing: border-box;
+	margin-bottom: 2px;
+}
+div.buycar .buycar-info .buy-group{
+	color: #888;
+	height: .7rem;
+}
+div.buycar .buycar-info .buy-group .group-name{
+	padding: .1rem 0;
+	height: .3rem;
+}
+div.buycar .buycar-info .buy-group .group-name::before{
+	content: "";
+	display: inline-block;
+	width: .05rem;
+	height: .14rem;
+	margin-right: .05rem;
+	background-color: #FFD600;
+}
+div.buycar .buycar-info .buy-group .group-info{
+	font-size: .12rem;
+	color: #999;
+}
+div.buycar .buycar-info .post-time{
+	height: .6rem;
+	line-height: .6rem;
+}
+div.buycar .buycar-info .post-time p{
+	float: left;
+	margin-right:.15rem;
+}
+div.buycar .buycar-info .post-time .time{
+	color: #D80D0D;
+	
+}
+div.buycar .buycar-info .post-time .yuding{
+	float: right;
+}
+div.buycar .buycar-info .buy-remark{
+	height: .6rem;
+	display: flex;
+	align-items: center;
+}
+div.buycar .buycar-info .buy-remark span{
+	margin-right: .15rem;
+}
+div.buycar .buycar-info .buy-remark #buy-remark-value{
+	padding: .1rem .1rem;
+	font-size: .16rem;
+	border-radius: .05rem;
+	border: 1px solid #aaa;
+	width: 2.3rem;
+}
+div.buycar .buycar-info .buy-list .buy-items{
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+div.buycar .buycar-info .buy-list .left-icon,
+div.buycar .buycar-info .all-money .left-icon{
+	width: .2rem;
+	height: .2rem;
+	text-align:center;
+	line-height: .2rem;
+	color: #fff;
+	font-weight: 600;
+	background-color: #FFD600;
+	border-radius: 50%;
+	margin-right: .15rem;
+}
+div.buycar .buycar-info .buy-list .img-wrap{
+	width: .7rem;
+	height: .7rem;
+}
+div.buycar .buycar-info .buy-list .img-wrap img{
+	width: 100%;
+	height: 100%;
+}
+div.buycar .buycar-info .buy-list .goods-item-info{
+	margin-left: .1rem;
+}
+div.buycar .buycar-info .buy-list .goods-item-info .goods-name{
+	height: .5rem;
+}
+div.buycar .buycar-info .buy-list .buy-items .buy-count{
+	position: absolute;
+	right: .1rem;
+	bottom: .1rem;
+	display: flex;
+	align-items: center;
+}
+div.buycar .buycar-info .buy-list .buy-items .buy-count .buy-count-sign{
+	display: block;
+	width: .25rem;
+	height: .25rem;
+	text-align: center;
+	line-height: .25rem;
+	font-size: .25rem;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 1px solid red;
+	color: red;
+	background-color: #fff;
+}
+div.buycar .buycar-info .buy-list .buy-items .buy-count .buy-count-num{
+	font-size: .2rem;
+	width: .25rem;
+	text-align: center;
+}
+div.buycar .buycar-info .all-money{
+	display: flex;
+	align-items: center;
+	height: .6rem;
+	position: relative;
+}
+div.buycar .buycar-info .all-money p{
+	width: .5rem;
+}
+div.buycar .buycar-info .all-money .money{
+	color: #D80D0D;
+}
+div.buycar .buycar-info .all-money .pay-btn{
+	width: 1.2rem;
+	height: .6rem;
+	text-align: center;
+	background-color: #FFD600;
+	line-height: .6rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}

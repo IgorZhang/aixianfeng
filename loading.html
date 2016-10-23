@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>爱鲜蜂</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			html{
+				font-size: 100px;
+			}
+			body{
+				background: #FFD600;
+			}
+			
+			.img-wrap{
+				width: 2.4rem;
+				height: 1.2rem;
+				background: url(imgs/img/loading-bg.png) no-repeat;
+				background-size: cover;
+				margin: 1.6rem auto .1rem;
+			}
+			.lbs-img{
+				width: .5rem;
+				height: .5rem;
+				margin: .2rem auto .1rem;
+				display: block;
+				transition: all 1s;
+			}
+			.lbsing p{
+				font-size: .18rem;
+				text-align: center;
+				
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="img-wrap">
+			
+		</div>
+		
+		<div class="lbsing">
+			<img src="imgs/img/loading-lbs.png" alt="" class="lbs-img"/>
+			<p>定位中</p>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		
+		var lbs = document.querySelector(".lbs-img");
+		
+		
+		setInterval(function () {
+			lbs.style.opacity = "0";
+			setTimeout(function () {
+				lbs.style.opacity = "1";
+			}, 1000);
+		},2000)
+	
+		
+	</script>
+</html>

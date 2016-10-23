@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>爱鲜蜂</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../css/home/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/home/tittle-header.css"/>
+		<style type="text/css">
+			
+			.order-class{
+				height: .5rem;
+				border-bottom: 1px solid #ddd;
+				background: #fff;
+				font-size: .14rem;
+				display: flex;
+				justify-content: space-around;
+			}
+			.order-class li{
+				text-align: center;
+				line-height: .5rem;
+			}
+			.order-class li.selected{
+				color: red;
+				border-bottom: 2px solid red;
+			}
+			
+			.order-bg{
+				width: 100%;
+				margin-top: 1rem;
+				text-align: center;
+			}
+			.order-bg .img-wrap{
+				width: 1rem;
+				height: 1rem;
+				background: url(../../imgs/mine/my-order-bg.png) no-repeat;
+				background-size: cover;
+				margin: 0 auto;
+			}
+			.order-bg p{
+				font-size: .17rem;
+				color: #999;
+				line-height: .5rem;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="top-tittle">
+				<a href="" class="goback" onclick="javascript: history.back(-1)"><</a>
+				<p class="page-name">我的订单</p>
+				<div class="refresh" onclick="javascript: location.reload()">
+					<img src="../../imgs/home/refresh.png" alt="">
+				</div>
+			</div>
+		</header>
+		
+		
+		<ul class="order-class">
+			<li class="selected">全部订单</li>
+			<li>待付款</li>
+			<li>待收货</li>
+			<li>待评价</li>
+			<li>退款/收货</li>
+		</ul>
+		
+		<div class="order-bg">
+			<div class="img-wrap"></div>
+			<p>您没有订单哦</p>
+		</div>
+		
+	</body>
+</html>

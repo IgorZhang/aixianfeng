@@ -1,0 +1,353 @@
+div.home::after{
+	content: "";
+	display: block;
+	height: .63rem;
+}
+div.home header{
+	z-index: 10;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: .57rem;
+	background-color: #FFD600;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div.home header .left,header .right{
+	width: .4rem;
+	display: flex;
+	padding: .05rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: .10rem;
+}
+div.home header .center{
+	text-align: center;
+}
+div.home header .center p{
+	width:2.2rem;
+	font-size: .17rem;
+	font-weight: 500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+div.home header .img-wrap{
+	width: .3rem;
+}
+div.home header .img-wrap img{
+	width: 100%;
+}
+
+div.home{
+	height: 100%;
+	width: 100%;
+	padding-top: .57rem;
+	/*padding-bottom: .6rem;*/
+}
+div.home .swiper-container{
+	width: 100%;
+	height:1.4rem;
+}
+div.home .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+div.home .index-tab .swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 0;
+}
+
+div.home .shortcut-nav{
+	width: 100%;
+	height: 2rem;
+	box-sizing: border-box;
+	padding: .11rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin: .12rem 0;
+	background-color: #fff;
+}
+div.home .shortcut-nav li{
+	width: 25%;
+	list-style: none;
+	flex-grow: 1;
+}
+div.home .shortcut-nav li div{
+	text-align: center;
+	height: .6rem;
+}
+div.home .shortcut-nav li div img{
+	height: 100%;
+	vertical-align: top;
+}
+div.home .shortcut-nav li p{
+	font-size: .15rem;
+	line-height: .25rem;
+	text-align: center;
+	color: #444
+}
+
+/*先锋头条*/
+div.home .top-line{
+	height: .4rem;
+	display: flex;
+	background-color: #fff;
+	justify-content: space-around;
+	align-items: center;
+}
+div.home .top-line .imgwrap{
+	width: .8rem;
+	padding: 0 .1rem;
+	border-right: 1px solid #aaa;
+	height: .25rem;
+}
+div.home .top-line .imgwrap img{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+
+}
+div.home .top-line a .red-font{
+	margin: 0 .1rem;
+	padding: .02rem .04rem;
+	border-radius: .05rem;
+	border: 1px solid red;
+	color: red;
+}
+div.home .top-line a{
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	font-size: .1rem;
+	color: #777;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+/*新品*/
+div.home .newGoods{
+	display: flex;
+	width: 100%;
+	height: 1.61rem;
+	margin: .12rem 0;
+}
+div.home .newGoods li{
+	width: 33%;
+	margin-right: .02rem;
+}
+div.home .newGoods li:last-child{
+	margin-right: 0;
+}
+div.home .newGoods li img{
+	width: 100%;
+}
+
+/*促销*/
+div.home .favorable{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+div.home .favorable li{
+	list-style: none;
+	width: 50%;
+	height: .75rem;
+}
+div.home .favorable li img{
+	width: 100%;
+	vertical-align: top;
+}
+
+/*优选水果*/
+div.home .fresh-fruit{
+	width: 100%;
+	padding: .15rem 0;
+	font-size: .14rem;
+	background-color: #fff;
+	margin: .12rem 0;
+	height: 3.6rem;
+}
+div.home .fresh-fruit .tittle{
+	padding: 0 .1rem;
+
+}
+div.home .fresh-fruit .tittle .top-tittle{
+	height: .2rem;
+	line-height: .2rem;
+	display: flex;
+}
+div.home .fresh-fruit .tittle .top-tittle .left{
+	width: .1rem;
+	background-color: #F38631;
+}
+div.home .fresh-fruit .tittle .top-tittle .text{
+	font-size: .16rem;
+	font-weight: 600;
+	color: #F38631;
+	margin: 0 .07rem;
+	flex-grow: 1;
+}
+div.home .fresh-fruit .tittle .top-tittle .text span{
+	font-size: .14rem;
+	color: #999;
+	float: right;
+}
+div.home .fresh-fruit .tittle .img-wrap{
+	width: 100%;
+	margin: .13rem 0;
+}
+div.home .fresh-fruit .tittle .img-wrap img{
+	width: 100%;
+}
+
+div.home .fresh-fruit .content{
+	display: flex;
+	width: 100%;
+}
+div.home .fresh-fruit .content .fruit-list-item{
+	width: 33.3%;
+	box-sizing: border-box;
+	border-right: .02rem solid #EFEFEF;
+	padding: .05rem;
+	font-size: .13rem;
+}
+div.home .fresh-fruit .content .fruit-list-item .img-wrap{
+	width: 100%;
+}
+div.home .fresh-fruit .content .fruit-list-item .img-wrap img{
+	width: 100%;
+}
+div.home .fresh-fruit .content .fruit-list-item .fruit-info{
+	line-height: .25rem;
+	position: relative;
+}
+div.home .fresh-fruit .content .fruit-list-item .fruit-info .fruit-name{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: .14rem;
+}
+
+div.home .fresh-fruit .content .fruit-list-item .fruit-info .goods-lable span{
+	display: inline-block;
+	padding: .01rem .03rem;
+	border-radius: .05rem;
+	border: 1px solid red;
+	line-height: .15rem;
+	font-size: .12rem;
+	color: red;
+	margin-right: .05rem;
+}
+div.home .fresh-fruit .content .fruit-list-item .fruit-info .goods-spec{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #666;
+}
+div.home .fresh-fruit .content .fruit-list-item .fruit-info .goods-price .now-price{
+	color: red;
+}
+div.home .fresh-fruit .content .fruit-list-item .fruit-info .goods-price .old-price{
+	color: #999;
+	text-decoration: line-through;
+}
+div.home .fresh-fruit .content .fruit-list-item .fruit-info .buy-btn{
+	font-size: .25rem;
+	font-weight: 700;
+	width: .3rem;
+	height: .3rem;
+	line-height: .3rem;
+	text-align: center;
+	color: red;
+	position: absolute;
+	right: .05rem;
+	bottom: .02rem;
+	border-radius: 50%;
+	border: .01rem solid #aaa;
+	background-color: #fff;
+}
+
+div.home .moreHot{
+	padding: 0 .1rem;
+}
+div.home .moreHot .tittle{
+	height: .5rem;
+	font-size: .16rem;
+	line-height: .5rem;
+	color: #777777;
+	text-align: center;
+}
+div.home .moreHot .content{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+div.home .moreHot .content .hot-item{
+	width: 49%;
+	box-sizing: border-box;
+	border-right: .02rem solid #EFEFEF;
+	padding: .05rem;
+	font-size: .18rem;
+	background-color: #fff;
+	margin-bottom: .1rem;
+}
+div.home .moreHot .content .hot-item .img-wrap{
+	width: 100%;
+}
+div.home .moreHot .content .hot-item .img-wrap img{
+	width: 100%;
+}
+div.home .moreHot .content .hot-item .goods-info{
+	line-height: .25rem;
+	position: relative;
+}
+div.home .moreHot .content .hot-item .goods-info .goods-name{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: .18rem;
+}
+
+div.home .moreHot .content .hot-item .goods-info .goods-lable span{
+	display: inline-block;
+	padding: .01rem .03rem;
+	border-radius: .05rem;
+	border: 1px solid red;
+	line-height: .15rem;
+	font-size: .14rem;
+	color: red;
+	margin-right: .05rem;
+}
+div.home .moreHot .content .hot-item .goods-info .goods-spec{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #666;
+}
+div.home .moreHot .content .hot-item .goods-info .goods-price .now-price{
+	color: red;
+}
+div.home .moreHot .content .hot-item .goods-info .goods-price .old-price{
+	color: #999;
+	text-decoration: line-through;
+}
+div.home .moreHot .content .hot-item .goods-info .buy-btn{
+	font-size: .25rem;
+	font-weight: 700;
+	width: .3rem;
+	height: .3rem;
+	line-height: .3rem;
+	text-align: center;
+	color: red;
+	position: absolute;
+	right: .05rem;
+	bottom: .02rem;
+	border-radius: 50%;
+	border: .01rem solid #aaa;
+	background-color: #fff;
+}

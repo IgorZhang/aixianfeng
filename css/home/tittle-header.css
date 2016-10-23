@@ -1,0 +1,31 @@
+header{
+	height: .55rem;
+	width: 100%;
+	background-color: #F9FAFD;
+}
+header .top-tittle{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-siZing: border-box;
+	padding: 0 .1rem;
+}
+header .top-tittle .page-name{
+	font-size: .18rem;
+	font-weight: 600;
+	width: 50%;
+	text-align: center;
+}
+header .top-tittle .goback{
+	font-size: .35rem;
+	font-weight: bold;
+}
+header .top-tittle .refresh{
+	width: .4rem;
+	height: .4rem;
+}
+header .top-tittle .refresh img{
+	width: 100%;
+	vertical-align: top;
+}

@@ -1,0 +1,43 @@
+.top-search{
+	width: 100%;
+	height: .55rem;
+	background-color: #F9FAFD;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: .2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.top-search a{
+	width: .4rem;
+	padding: .03rem .05rem;
+}
+.top-search .goback{
+	font-size: .3rem;
+	color: #000;
+}
+.top-search .ss-btn{
+	font-size: .16rem;
+	color: #888;
+}
+.top-search .text-btn{
+	position: relative;
+}
+.top-search .text-btn img{
+	position: absolute;
+	width: .16rem;
+	left: .07rem;
+	top: .1rem;
+}
+.top-search .text-btn input{
+	width: 2.3rem;
+	height: .35rem;
+	border: 1px solid #ddd;
+	border-radius: .05rem;
+	background-color: #F9FAFD;
+	padding-left: .3rem;
+	box-sizing: border-box;
+	font-size: .14rem;
+}

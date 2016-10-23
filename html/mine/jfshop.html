@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../css/home/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/home/tittle-header.css"/>
+		<style type="text/css">
+			
+			body{
+				font-size: .16rem;
+			}
+			
+			
+			.user-points{
+				height: 1.9rem;
+				width: 100%;
+				background: #fff;
+				position: relative;
+				border-bottom: 1px solid #eee;
+			}
+			.user-points .out-border{
+				width: 1.2rem;
+				height: 1.2rem;
+				border: .3rem solid #DDDDDD;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				border-radius: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+			.user-points .points-wrap{
+				font-size: .18rem;
+				color: #aaa;
+				width: 1.2rem;
+				height: 1.2rem;
+				border-radius: 50%;
+				border: .1rem solid #C7C7C7;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				z-index: 5;
+				line-height: .25rem;
+				text-align: center;
+				box-sizing: border-box;
+				padding: .3rem 0;
+			}
+			.user-points .points-wrap .points-num{
+				font-size: .3rem;
+			}
+			
+			.jf-nav{
+				height: .79rem;
+				width: 100%;
+				display: flex;
+				background-color: #fff;
+				font-family: "宋体";
+				color: #999;
+			}
+			.jf-nav li{
+				flex-grow: 1;
+				text-align: center;
+				border-right: 1px solid #eee;
+			}
+			.jf-nav li:last-child{
+				border: none;
+			}
+			.jf-nav li .img-wrap{
+				width: .3rem;
+				height: .3rem;
+				margin: .1rem auto;
+			}
+			.jf-nav li .img-wrap img{
+				width: 100%;
+				height: 100%;
+			}
+			
+			.coupon{
+				width: 100%;
+				height: 3.55rem;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin-top: .15rem;
+			}
+			.coupon li{
+				width: 49.5%;
+				background: #fff;
+				height: 1.75rem;
+			}
+			.coupon li .img-wrap{
+				width: 100%;
+				height: .85rem;
+				padding: .1rem 0;
+			}
+			.coupon li .img-wrap img{
+				width: 100%;
+				height: 100%;
+			}
+			.coupon li p{
+				font-size: .15rem;
+				margin: 0 .1rem;
+				font-family: "宋体";
+				line-height: .25rem;
+			}
+			.coupon li .coupon-price{
+				color: red;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="top-tittle">
+				<a href="" class="goback" onclick="javascript: history.back(-1)"><</a>
+				<p class="page-name">积分商城</p>
+				<div class="refresh" onclick="javascript: location.reload()">
+					<img src="../../imgs/home/refresh.png" alt="">
+				</div>
+			</div>
+		</header>
+		
+		<div class="clear"></div>
+		
+		<div class="user-points">
+			<div class="points-wrap">
+				<p>可用积分</p>
+				<p class="points-num">
+					0
+				</p>
+			</div>
+			<div class="out-border"></div>
+		</div>
+		
+		<ul class="jf-nav">
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-nav-1.png" alt="" />
+				</div>
+				<p>积分明细</p>
+			</li>
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-nav-2.png" alt="" />
+				</div>
+				<p>兑换记录</p>
+			</li>
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-nav-3.png" alt="" />
+				</div>
+				<p>积分规则</p>
+			</li>
+		</ul>
+		
+		<ul class="coupon">
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-quan-1.jpg" alt="" />
+				</div>
+				<p class="coupon-name">
+					3元积分兑换券
+				</p>
+				<p class="coupon-price">
+					300积分
+				</p>
+			</li>
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-quan-2.jpg" alt="" />
+				</div>
+				<p class="coupon-name">
+					5元积分兑换券
+				</p>
+				<p class="coupon-price">
+					500积分
+				</p>
+			</li>
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-quan-3.jpg" alt="" />
+				</div>
+				<p class="coupon-name">
+					8元积分兑换券
+				</p>
+				<p class="coupon-price">
+					800积分
+				</p>
+			</li>
+			<li>
+				<div class="img-wrap">
+					<img src="../../imgs/mine/jfshop-quan-4.jpg" alt="" />
+				</div>
+				<p class="coupon-name">
+					10元积分兑换券
+				</p>
+				<p class="coupon-price">
+					1000积分
+				</p>
+			</li>
+		</ul>
+		
+		
+		
+	</body>
+</html>

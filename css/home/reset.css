@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+	font-size: 100px;
+	background-color: #EFEFEF;
+	font-family: 黑体;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul,li{
+	list-style: none;
+}

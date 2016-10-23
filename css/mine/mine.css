@@ -1,0 +1,158 @@
+
+div.mine .user-info{
+	width: 100%;
+	height: 1.2rem;
+	background-color: #FFD600;
+	display: flex;
+	align-items: center;
+}
+div.mine .user-info .img-wrap{
+	width: .73rem;
+	height: .73rem;
+	background: url(../../imgs/mine/icon_head.png);
+	background-size: cover;
+	margin: 0 .18rem;
+}
+div.mine .user-info .user-info-center {
+	line-height: .3rem;
+	width: 1.5rem;
+}
+div.mine .user-info .user-info-center .user-name{
+	font-size: .2rem;
+	font-weight: bold;
+	color: #fff
+}
+div.mine .user-info .user-info-center .register-vip{
+	width: 1rem;
+	background: url(../../imgs/mine/aixianfeng.png);
+	background-size: cover;
+	padding-left: .4rem;
+	box-sizing: border-box;
+	font-size: .12rem;
+	color: red;
+	height: .3rem;
+	margin: .05rem 0;
+}
+div.mine .user-info .right-jiantou{
+	font-size: .3rem;
+	color: #fff;
+	padding-left: .8rem;
+}
+div.mine .user-favorite{
+	height: .42rem;
+	background-color: #F3C800;
+	display: flex;
+	line-height: .42rem;
+	font-family: "宋体";
+	font-size: .14rem;
+}
+div.mine .user-favorite .goods-fav{
+	flex-grow: 1;
+	text-align: center;
+	color: #fff;
+}
+div.mine .user-favorite .shop-fav{
+	flex-grow: 1;
+	text-align: center;	
+	color: #fff;
+}
+div.mine .user-favorite .shop-fav::before{
+	content: "";
+	display: block;
+	width: .01rem;
+	height: .25rem;
+	background: #fff;
+	position: absolute;
+	margin: .1rem 0;
+}
+div.mine .my-order{
+	height: .59rem;
+	width: 100%;
+	background-color: #fff;
+	margin: .1rem 0 .02rem;
+	line-height: .59rem;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	font-size: .16rem;
+}
+div.mine .my-order p span{
+	color: #999999;
+	float: right;
+}
+
+div.mine .order-state{
+	height: .85rem;
+	width: 100%;
+	display: flex;
+	background-color: #fff;
+	font-size: .14rem;
+	line-height: .25rem;
+}
+div.mine .order-state li{
+	flex-grow: 1;
+	text-align: center;
+	padding-top: .1rem;
+	box-sizing: border-box;
+	color: #444;
+}
+div.mine .order-state li .img-wrap{
+	width: .3rem;
+	height: .3rem;
+	margin: .08rem auto;
+	background: url(../../imgs/mine/sprite_me_icons.png) no-repeat;
+	background-size: 1.8rem;
+}
+div.mine .order-state li .bg-1{
+	background-position: -1px 2px;
+}
+div.mine .order-state li .bg-2{
+	background-position: -32px 2px;
+}
+div.mine .order-state li .bg-3{
+	background-position: -61px 2px;
+}
+div.mine .order-state li .bg-4{
+	background-position: -89px 2px;
+}
+
+div.mine .more-items{
+	width: 100%;
+	height: 2.4rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	margin: .15rem 0;
+	font-size: .14rem;
+}
+div.mine .more-items li{
+	width: 25%;
+	height: 1.2rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	padding: .3rem 0;
+	line-height: .4rem;
+}
+div.mine .more-items li .img-wrap{
+	width: .3rem;
+	height: .3rem;
+	margin: 0 auto;
+	background: url(../../imgs/mine/sprite_me_icons.png);
+	background-size: 1.8rem;
+	background-position-y: -30px;
+}
+div.mine .more-items li .more-item-bg2{
+	background-position-x: -30px;
+}
+div.mine .more-items li .more-item-bg3{
+	background-position-x: -58px;
+}
+div.mine .more-items li .more-item-bg4{
+	background-position-x: -90px;
+}
+div.mine .more-items li .more-item-bg5{
+	background-position: -1px -60px;
+}
+div.mine .more-items li .more-item-bg6{
+	background-position: -30px -60px;
+}

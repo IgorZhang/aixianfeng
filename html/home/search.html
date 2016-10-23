@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱鲜蜂</title>
+	<meta name="viewport" content="width=device-width, scale-initial=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<style type="text/css">
+		
+		
+		.lable-tittle{
+			font-size: .16rem;
+		}
+		.hot-lable, .history-lable{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.hot-lable span, .history-lable span{
+			padding: .12rem .2rem;
+			background-color: #fff;
+			font-size: .14rem;
+			border-radius: .2rem;
+			margin: .07rem .1rem .07rem 0;
+		}
+
+		.main::before{
+			content: "";
+			display: block;
+			height: .5rem;
+		}
+		.main{
+			padding: 0 .15rem;
+		}
+		.lable-tittle{
+			padding: .05rem 0;
+			margin-top: .3rem;
+			color: #666;
+			font-size: .14rem;
+		}
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="../../css/home/top-search.css">
+	<link rel="stylesheet" type="text/css" href="../../css/home/reset.css">
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<div class="top-search">
+				<a href="" onclick="javascript:history.back(-1)" class="goback">
+					<
+				</a>
+				<div class="text-btn">
+					<img src="../../imgs/home/ico_search.png" alt="">
+					<input type="text" placeholder="请输入商品名称" />
+				</div>
+				<a href="" class="ss-btn" onclick="javascript:alert('别点了！这个功能还没写呢')">
+					搜索
+				</a>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="main">
+		<p class="lable-tittle">热门搜索</p>
+		<div class="hot-lable">
+			<span>大闸蟹</span>
+			<span>水</span>
+			<span>中秋月饼</span>
+			<span>酸奶</span>
+			<span>啤酒</span>
+			<span>西瓜</span>
+			<span>大荔冬枣</span>
+			<span>贝尔蛋糕</span>
+			<span>月盛斋</span>
+		</div>
+
+		<p class="lable-tittle">历史搜索</p>
+		<div class="history-lable">
+			<span>大闸蟹</span>
+		</div>
+	</div>
+
+</body>
+</html>

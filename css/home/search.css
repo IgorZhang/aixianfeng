@@ -1,0 +1,76 @@
+
+
+div.search .top-search{
+	width: 100%;
+	height: .55rem;
+	background-color: #F9FAFD;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: .2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+div.search .top-search a{
+	width: .4rem;
+	padding: .03rem .05rem;
+}
+div.search .top-search .goback{
+	font-size: .3rem;
+	color: #000;
+}
+div.search .top-search .ss-btn{
+	font-size: .16rem;
+	color: #888;
+}
+div.search .top-search .text-btn{
+	position: relative;
+}
+div.search .top-search .text-btn img{
+	position: absolute;
+	width: .16rem;
+	left: .07rem;
+	top: .1rem;
+}
+div.search .top-search .text-btn input{
+	width: 2.3rem;
+	height: .35rem;
+	border: 1px solid #ddd;
+	border-radius: .05rem;
+	background-color: #F9FAFD;
+	padding-left: .3rem;
+	box-sizing: border-box;
+	font-size: .14rem;
+}
+
+div.search .lable-tittle{
+	font-size: .16rem;
+}
+div.search .hot-lable, .history-lable{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+div.search .hot-lable span, .history-lable span{
+	padding: .12rem .2rem;
+	background-color: #fff;
+	font-size: .14rem;
+	border-radius: .2rem;
+	margin: .07rem .1rem .07rem 0;
+}
+
+div.search .main::before{
+	content: "";
+	display: block;
+	height: .5rem;
+}
+div.search .main{
+	padding: 0 .15rem;
+}
+div.search .lable-tittle{
+	padding: .05rem 0;
+	margin-top: .3rem;
+	color: #666;
+	font-size: .14rem;
+}
